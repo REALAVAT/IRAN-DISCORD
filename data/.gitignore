@@ -1,0 +1,3 @@
+# Keep runtime state out of git (dir is created automatically).
+*
+!.gitignore
