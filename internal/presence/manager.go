@@ -105,7 +105,7 @@ func (m *Manager) push() {
 
 	servers := formatCompact(stats.Servers)
 	members := formatCompact(stats.TotalUsers)
-	summary := fmt.Sprintf("%s servers & %s members", servers, members)
+	summary := fmt.Sprintf("%s Servers & %s Members", servers, members)
 
 	activity := &discordgo.Activity{
 		Type: actType,
